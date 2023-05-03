@@ -1,7 +1,6 @@
 {
   "name": "sripgweb",
   "version": "0.1.0",
-  "proxy":"https://f45c-43-205-237-119.ngrok-free.app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
