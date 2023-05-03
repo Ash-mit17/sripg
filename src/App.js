@@ -13,7 +13,9 @@ function App() {
       )
       .then(data=>{
          setBackendData(data)
+         
       })
+      console.log(backend)
    },[backend])
  
 
