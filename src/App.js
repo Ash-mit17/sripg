@@ -4,7 +4,7 @@ import React,{useState, useEffect} from 'react';
 
 function App() {
 
-   const [backend,setBackendData] = useState({names:["efe"],rates:[4.3],reviews:["jenf"]})
+   const [backend,setBackendData] = useState({names:[""],rates:[],reviews:[""]})
 
    useEffect(()=>{
       fetch("https://o355qetsdd.execute-api.us-east-1.amazonaws.com/data",{headers:{"ngrok-skip-browser-warning":"true" }})
