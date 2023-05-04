@@ -252,9 +252,9 @@ function App() {
                   <div className="col-md-6">
                      <h1 className="contact_text">YOUR REVIEW</h1>
                      <form className="mail_sectin" action="https://o355qetsdd.execute-api.us-east-1.amazonaws.com/data" method="post">
-                        <input type="text" className="email-bt" placeholder="Name" name="name" autocomplete="off" />
-                        <input type="Number" max="5" min="0" step="0.1" className="email-bt" placeholder="Rating" name="rating" autocomplete="off" />
-                        <textarea className="massage-bt" placeholder="Message" rows="5" id="comment" name="message" autocomplete="off"></textarea>
+                        <input type="text" className="email-bt" placeholder="Name" name="name" autocomplete="off" required/>
+                        <input type="Number" max="5" min="0" step="0.1" className="email-bt" placeholder="Rating" name="rating" autocomplete="off"  required/>
+                        <textarea className="massage-bt" placeholder="Message" rows="5" id="comment" name="message" autocomplete="off" required></textarea>
                         <button type="submit" style={{fontSize: "1rem", width: "139px", height: "49.925px"}} className="send_bt" >ADD REVIEW</button>
                      </form>
                   </div>
