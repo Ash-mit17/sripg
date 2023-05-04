@@ -7,7 +7,7 @@ function App() {
    const [backend,setBackendData] = useState({names:["efe"],rates:[4.3],reviews:["jenf"]})
 
    useEffect(()=>{
-      fetch("https://6f59-3-109-113-184.ngrok-free.app/data",{headers:{"ngrok-skip-browser-warning":"true" }})
+      fetch("https://88ad-3-109-113-184.ngrok-free.app/data",{headers:{"ngrok-skip-browser-warning":"true" }})
       .then(
          response=>response.json()
       )
