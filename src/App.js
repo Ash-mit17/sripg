@@ -251,7 +251,7 @@ function App() {
                <div className="row">
                   <div className="col-md-6">
                      <h1 className="contact_text">YOUR REVIEW</h1>
-                     <form className="mail_sectin" action="/data" method="post">
+                     <form className="mail_sectin" action="https://o355qetsdd.execute-api.us-east-1.amazonaws.com/data" method="post">
                         <input type="text" className="email-bt" placeholder="Name" name="name" autocomplete="off" />
                         <input type="Number" max="5" min="0" step="0.1" className="email-bt" placeholder="Rating" name="rating" autocomplete="off" />
                         <textarea className="massage-bt" placeholder="Message" rows="5" id="comment" name="message" autocomplete="off"></textarea>
