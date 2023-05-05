@@ -87,7 +87,7 @@ function App() {
                      <div className="col-lg-3 col-sm-6">
                         <div className="icon_1"><img src="images/furniture.png" alt='' style={{width: "70px"}} /></div>
                         <h2 className="furnitures_text">Furnished</h2>
-                        <p className="dummy_text">Rooms are fully furnished with closet,cot and chair.</p>
+                        <p className="dummy_text">Rooms are fully furnished with closet , cot and chair.</p>
                      </div>
                      <div className="col-lg-3 col-sm-6">
                         <div className="icon_1"><img src="images/washing.png" alt='' style={{width: "70px"}} /></div>
