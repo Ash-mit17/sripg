@@ -87,7 +87,7 @@ function App() {
                      <div className="col-lg-3 col-sm-6">
                         <div className="icon_1"><img src="images/furniture.png" alt='' style={{width: "70px"}} /></div>
                         <h2 className="furnitures_text">Furnished</h2>
-                        <p className="dummy_text">Rooms are fully furnished with closet,cot,table and chair.</p>
+                        <p className="dummy_text">Rooms are fully furnished with closet,cot and chair.</p>
                      </div>
                      <div className="col-lg-3 col-sm-6">
                         <div className="icon_1"><img src="images/washing.png" alt='' style={{width: "70px"}} /></div>
@@ -392,8 +392,7 @@ function App() {
          </div>
 
          <div style={{"display": "inline-flex","align-items": "center", "justify-content": "center", "width": "100%","height": "80vh"}}>
-            <iframe style={{display: "flex",justifyContent: "center",height: "100%",border:"0"}} src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3897.6305404012774!2d76.61326561481549!3d12.340635891272017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDIwJzI2LjMiTiA3NsKwMzYnNTUuNiJF!5e0!3m2!1sen!2sin!4v1682781142513!5m2!1sen!2sin" width="100%" height="30vh" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='map'></iframe>
-
+            <iframe style={{display: "flex",justifyContent: "center",height: "100%",border:"0"}} src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1948.8152653261097!2d76.61438677818371!3d12.340636546330867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDIwJzI2LjMiTiA3NsKwMzYnNTUuNiJF!5e0!3m2!1sen!2sin!4v1683293834096!5m2!1sen!2sin" width="100%" height="30vh" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='map'></iframe>
          </div>
          {/* <!-- contact section end -->
       <!-- footer section start -> */}
